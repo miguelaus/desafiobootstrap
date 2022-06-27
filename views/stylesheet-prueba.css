@@ -109,13 +109,22 @@ h1 {
   margin: auto;
 	}
 
-h2 {
+
+header h2 {
 	text-align: center;
 	color: #FFFFFF;
   background-image: linear-gradient(to bottom, #000000, #1a040d, #270719, #330525, #3f0235, #3f0235, #3f0235, #3f0235, #330525, #270719, #1a040d, #000000);
-  border-radius: 20px;
-  margin: 1% 15%;
+  border-radius: 30px;
+	padding: 1% 10%;
+	}
 
+	h2 {
+	text-align: center;
+	color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #000000, #1a040d, #270719, #330525, #3f0235, #3f0235, #3f0235, #3f0235, #330525, #270719, #1a040d, #000000);
+  border-radius: 30px;
+	padding: 1% 10%;
+	margin-top: 5%;
 	}
 
 .class__header { 
@@ -160,7 +169,7 @@ header {
 	padding: 2% 2%;
   }
 
-/*------------------------Setting cards------*/
+/*------------------------Setting cards--------*/
 .contenedor { 
 	background-color: black;
 	padding: 1em;
@@ -261,9 +270,7 @@ h3 {
 
 /*-----------------bottonup y footer ------------*/
 
-.section__botofinn--derecha {
-	display: flex;
-}
+
 
 footer {
 	background-color: hotpink;
@@ -275,10 +282,8 @@ footer {
 }
 
 button {
-	width: 100%;
 	background-color: black;
-	font-size: 1.10rem;
-
+	font-size: 1.1rem;
 }
 
 footer p {
@@ -436,7 +441,7 @@ table {
 	background-color: hotpink;
   background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
   list-style: none;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -515,23 +520,49 @@ form ul {
 	
 	}
 
-.grid-template-columns-row {
+	.grid-template-columns-row {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
 	column-gap: 1%;
 	grid-row-gap: 1%;
 	}
 
+	.bg-lista {
+	background-color: hotpink;
+  background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+  list-style: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+	}
 
 	h1 {
 	padding: 1%;
 	margin: auto;
 	}
 
-.imglogo{ 
+	.imglogo{ 
 	width: 60px;
 	background-color: white;
 	} 
+
+	header h2 {
+	text-align: center;
+	color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #000000, #1a040d, #270719, #330525, #3f0235, #3f0235, #3f0235, #3f0235, #330525, #270719, #1a040d, #000000);
+  border-radius: 30px;
+	padding: 1% 10%;
+	}
+
+	h2 {
+	text-align: center;
+	color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #000000, #1a040d, #270719, #330525, #3f0235, #3f0235, #3f0235, #3f0235, #330525, #270719, #1a040d, #000000);
+  border-radius: 30px;
+	padding: 1% 10%;
+	margin-top: 5%;
+	}
+
 
 }
 
@@ -564,7 +595,7 @@ form ul {
 	}
 
 
-.text-size2 {
+	.text-size2 {
 	font-size: 1.5em;
  	}
 
@@ -577,19 +608,27 @@ form ul {
 	flex-direction: column;
 	height: 50%;
 	width: 75%;
-		}
+			}
 
-	 h2 {
+	header h2 {
 	text-align: center;
 	color: #FFFFFF;
   background-image: linear-gradient(to bottom, #000000, #1a040d, #270719, #330525, #3f0235, #3f0235, #3f0235, #3f0235, #330525, #270719, #1a040d, #000000);
-  border-radius: 20px;
-  margin: 1% 15%;
-	padding: 1%;
+  border-radius: 30px;
+	padding: 1% 1%;
+	}
 
-		}
+	h2 {
+	text-align: center;
+	color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #000000, #1a040d, #270719, #330525, #3f0235, #3f0235, #3f0235, #3f0235, #330525, #270719, #1a040d, #000000);
+  border-radius: 30px;
+	padding: 1% 10%;
+	margin-top: 5%;
+	}
 
  			/*------ Piano para 1024------*/
+
 	ul {
 	  height:19.875em;
 	  width:34em;
