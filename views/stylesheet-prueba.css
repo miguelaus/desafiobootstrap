@@ -422,7 +422,8 @@ table {
 	color: white;
 	text-align: justify;
 	padding: 10%;
-	flex-direction: column
+	flex-direction: column;
+	margin-bottom: 10%;
 }
 
 .bg-yellow {
